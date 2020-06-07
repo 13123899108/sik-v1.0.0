@@ -172,6 +172,7 @@ top: 0;
 right:0;
 z-index: 1;
 }
+
 .mengban{
     position: absolute;
     left: 0;
@@ -183,8 +184,12 @@ z-index: 1;
     transition: opacity linear 0.2s;
    
 }
-.rrightimg :hover .mengban{
-opacity:0-1;}   
+.mengban1{
+    height: 90%;
+    
+}
+.mengban:hover{
+opacity:0.8;}   
 
 
 .bannerwdio{
@@ -222,6 +227,10 @@ width: 20000px;
 height: 100%;
 
 }
+.yid{
+height: 100%;
+
+}
 .shopli ul li a {
 background:#f5f5f5 ;
 }
@@ -231,8 +240,18 @@ height: 400px;
 margin-right: 10px;
 background: #f5f5f5;
 float: left;
+border-bottom: 0px solid #ffb81c;
+transition: border-bottom linear 0.2s, -webkit-transform linear 0.2s;
+transition:transform linear 0.2s, -webkit-transform linear 0.2s;  
 
 }
+.shopli ul li :hover .yid{
+color: #ffb81c;
+  transform:translate(0px,-10px);
+border-bottom: 10px solid #ffb81c
+}
+
+
 .shop ul li .shoplitu img{ 
 height: 100%;
 width: 100%;
@@ -286,6 +305,12 @@ position: relative;
     margin-bottom: 30px;
 
 }
+
+.mengban2{
+width: 950px;
+height: 630px;
+
+}
 .colchu img {
 height: 100%;
 }
@@ -293,7 +318,6 @@ height: 100%;
 position: absolute;
 right: 0;
 top: 0;
-
 }
 
 .wxchat{
@@ -327,8 +351,12 @@ margin-bottom: 59px;
 
 }
 .about  ul {
-overflow: hidden;}
+overflow: hidden;
+
+
+}
 .about  ul li {
+position: relative;
 float: left;
 width: 380px;
  height: 504px;

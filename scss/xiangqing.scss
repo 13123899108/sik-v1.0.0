@@ -1,0 +1,420 @@
+@charset "utf-8";
+// 通用去除样式
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: tahoma,arial,\5b8b\4f53,sans-serif;
+}
+li{
+list-style: none;
+}
+a{text-decoration: none;}
+
+// ***************
+// 清除原本css样式
+// ****************
+// 首页标题栏头部
+.headbg{
+width: 100%;
+overflow: hidden;
+background: white;
+
+
+}
+body{
+background: #ededed;}
+
+//*********************************************
+//******************头部开始********************
+//*********************************************
+.headb{
+height: 130px;
+font-size: 14px;
+overflow: hidden;
+
+}
+// 版心居中属性
+.center{
+width: 1200px;
+margin: 0 auto;
+}
+// 头部的左边
+.headb .left{
+  float: left;
+  overflow: hidden;
+  margin-top: 62px;
+  background-color:white;
+
+}
+.headb .left .switch{
+width: 40px;
+padding-left: 25px;
+text-align: center;
+height: 28px;
+padding-right: 20px;
+padding-bottom: 3px;
+border-right: 1px solid black;
+float: left;
+
+}
+.headb .left .switch h4{
+line-height: 25px;
+}
+.rmb{
+width: 49px;
+padding-left: 17px;
+float: left;
+}
+.rmb span {
+line-height: 25px;}
+//首页logo样式
+.headb .md{
+width: 189px;
+height: 75px;
+margin:0 auto ;
+margin-top: 25px;
+}
+.headb .right{
+float: right;
+overflow: hidden;
+margin-top: 62px;
+background-color:white;
+}
+.yangshi{
+width: 40px;
+padding-left: 10px;
+text-align: center;
+height: 28px;
+padding-right: 10px;
+padding-bottom: 3px;
+border-right: 1px solid black;
+float: left;
+
+
+}
+.yangshi span{
+line-height: 30px;}
+
+.wbq{
+border-right:none ;}
+
+// 导航栏
+.nav{
+width: 100%;
+background: black;
+overflow: hidden;
+}
+// 导航栏居中版心
+.navb{
+background:#000000;
+overflow: hidden;
+}
+// 导航栏里面的ul
+.navli ul{
+float: left;
+}
+// 导航栏里面的ul的li
+.navli ul li{
+float: left;}
+//导航栏里面的搜索标签 
+.seach{
+line-height: 50px;
+height: 50px;
+float: right;
+}
+//导航栏里面的a标签
+.navli ul li a{
+padding: 0 25px;
+height: 50px;
+line-height: 50px;
+font-size: 14px;
+color: #ffb81c;
+}
+//.hover 鼠标移入后的样式
+.navli ul li:hover  a {
+color: white;
+}
+.snav{
+padding: 30px 0 20px;
+width: 100%;
+position: relative;
+color:black;
+
+
+}
+.snav span{
+position: absolute;
+right: 0;
+top: 29px;
+
+}
+a:hover{text-decoration: underline;}
+
+.shop_show{
+width: 1100px;
+box-shadow: 0px 1px 1px;
+padding: 40px 50px 12px 40px;
+background: white;
+overflow: hidden;
+border:  1px solid #ededed
+
+}
+.shop_show_left{
+float: left;
+height: 400px;
+width: 481px;
+border: 1px solid #ededed;
+z-index: 2;
+margin-bottom: 85px;
+
+position: relative;
+}
+
+.shop_show_right{
+float: right;
+width: 579px;
+min-height: 400px;
+overflow: hidden;
+
+}
+.ssleftimg{
+width: 80px;
+height: 400px;
+
+position: relative;
+
+}
+.ssleftimg dd{
+width: 100%;
+height: 100%;
+border: 1px solid #ededed;
+
+}
+.ssleftimg dd a{    
+    display: block;
+    width: 80px;
+    height: 79px;
+    margin: 0 0 1px 0;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ededed;
+}
+
+    .ssleftimg dd img{
+    width: 100%;
+    height: 100%;
+    }
+
+    .shop_show_left dt {position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #ededed;
+    overflow: hidden;
+    
+    }
+    .shop_show_left dt img {
+    float: left;
+    
+    }
+
+    .rightlist{
+    margin-bottom: 8px;
+    padding-left: 20px;
+    }
+    .shop_show_right .rightlist h2{
+    font-size: 16px;
+    padding: 0 0 20px 0;
+    
+    }
+    .jg2{
+     height: 30px;
+    padding: 15px 0 10px 20px;
+    color: #666666;
+    position: relative;
+    z-index: 4;
+     overflow: hidden;
+    
+    }
+    .jg2_text{
+   float: left;
+   
+    font-family: microsoft yahei;
+    
+    }
+    .jg2_text span{
+      font-size: 18px;
+    }
+    .jg2_text_num{
+    line-height: 22px;
+    width: 445px;
+   float: left;
+   margin-left: 5px;
+   margin-top: -4px;
+    }
+    .jg2_text_num strong {
+     font-size: 12px;
+
+    
+    }
+    .jg2_text_num .num310 {
+    font-size: 25px;
+    font-weight: 200;
+    
+    }
+    .fh{
+    color: #666666;
+    }
+   
+    .spxx p{
+    float: left;
+    margin-left: 20px;
+    }
+    .yanse p{
+    float: left;
+
+    
+    }
+    .yanse{
+    margin-top: 15px;
+    overflow: hidden;
+    margin-left: 20px;
+    }
+    .yanse ul{
+    overflow: hidden;
+    float: left;}
+   .yanse li{
+   float: left;
+   width: 30px;
+   height: 30px;
+   background: yellowgreen;
+   }
+   .yanse ul li img {
+   width: 100%;
+   height: 100%;}
+
+   .xshi p{
+   float: left;
+   margin-left: 20px;
+   line-height: 40px;
+   }
+   .xshi{
+   overflow: hidden;
+   
+   }
+   .btn{
+   border: #666666;
+   
+   }
+   .btn input{
+   text-align: center;
+   width: 20px;
+   }
+  .saoma p {
+  text-indent: 20px;
+  font-size: 14px;
+  color: #ffb81c;
+  
+  }
+  .saoma  div{
+  width: 180px;
+  height: 180px;
+  background: #ffb81c;
+  margin-top: 5px;
+  }
+
+
+  // foot
+  .foot{
+margin-top:70px ;
+padding: 37px 0 66px;
+background: #ffb81c;
+}
+.footcenter{
+margin: 0 auto;
+width: 1200px;
+background: #ffb81c;
+overflow: hidden;
+
+}
+.footcenter ul li {
+float: left;
+line-height: 34px;
+width: 236px;}
+.footcenter ul li a{
+display: block;
+}
+.footcenter ul li a{
+font-size: 14px;
+color: black;
+}
+.wibu{
+margin-top: 25px;
+line-height: 36px;
+float: left;
+}
+.wibu span{
+margin-right: 28px;
+font-size: 14px;
+}
+.wibu p{
+font-size: 14px;}
+.clearfix{
+margin-top: 15px;}
+.lazyImg{
+
+margin-right: 30px;
+
+}
+.bgcolornacleft li {
+width: 310px;
+}
+.bgcolornacleft > ul> li>input  {
+width: 310px;
+line-height: 40px;
+}
+.bgcolornacleft ul li p {
+line-height: 40px;
+overflow: hidden;}
+
+.rg1{
+float: right;}
+.gb{
+float: left;
+}
+.bgcolornacleft ul{
+margin-bottom: 3px;}
+
+.gbl{
+float: left;
+margin-right: 5px;
+margin-top: 15px;
+}
+.bgcolornacleft button{
+width: 310px;
+height: 50px;
+font-size: 18px;
+color: white;
+background: orange;
+border: none;
+margin-bottom: 10px;
+}
+.fixed-qrcode {
+   
+    position: fixed;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -732px;
+    width: 120px;
+    height: 164px;
+    z-index: 100;
+    display: block;
+    -webkit-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
